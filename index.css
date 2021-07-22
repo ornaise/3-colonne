@@ -1,0 +1,145 @@
+/* <!-- Feel free to remove these styles or customise in your own stylesheet 👍 --> */
+  
+ .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } 
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+* {
+  box-sizing: border-box; }
+
+  body{
+    min-height: 100vh;
+    display: -ms-flexbox; 
+    display: flex;
+     -ms-flex-direction: column; 
+     flex-direction: column; 
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 24px;
+    margin: 0;
+    background: #f2f2f2;
+  }
+  body .container{
+    width: 100%;
+    max-width: 920px;
+    min-height: 500px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    
+  }
+   /* @media (max-width:830px){
+      body .container{
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-height: none;
+      } 
+  } */
+  body.container.card{
+      width: calc(100% / 3);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    background: orange;
+    padding: 48px;
+
+  }
+  @media (max-width:830px){
+      body.container.card{
+        width: 100%;
+      }
+  }
+  body .container .card:nth-child(1){
+    background: #c98832;
+  }
+  body .container .card:nth-child(1).card-button{
+    color: #c98832;
+  }
+  
+  body .container .card:nth-child(2){
+    background: #006971;
+  }
+  body .container .card:nth-child(2).card-button{
+    color: #006971;
+  }
+  
+  body .container .card:nth-child(3){
+    background: #004140;
+  }
+  body .container .card:nth-child(3).card-button{
+    color: #004140;
+  }
+  body .container .card .card-icon{
+      height: 40px;
+      margin-bottom: 35px;
+  }
+  body .container .card .card-heading{
+    font-family: "Big Shoulders Display", cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #f2f2f2;
+    margin: 0 0 25px;
+  }
+   body .container .card .card-description{
+    -ms-flex: 1;
+    flex: 1;
+    font-family: "Lexend Deca", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin: 0 0 25px;
+  }
+  body .container .card .card-button{
+    font-family: "Lexend Deca", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    background-color: #ffffff;
+    color: #e28625;
+    padding: 11px 30px 12px;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color ease-out .2s, color ease-out .2s;
+    will-change: background-color, color;
+    white-space: pre;
+  }
+  body .container .card .card-button:hover{
+    background-color: transparent;
+    color: #ffffff;
+  }
+  body .attribution{
+      font-family: "Lexend Deca", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 25px;
+      mix-blend-mode: normal;
+      opacity: 0.75;
+      text-align: center;
+  }
+  body .attribution a{
+    color: #e28625;
+    text-decoration: none;
+  } 
+
+  
+
+  
